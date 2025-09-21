@@ -1,6 +1,6 @@
 # Simple Haskell Repo
 
-Repo for simple new Haskell projects.
+Simple Haskell repo for new projects.
 
     $ git clone git@github.com:instinctive/dev-simple-sh.git changeme
     $ cd changeme
