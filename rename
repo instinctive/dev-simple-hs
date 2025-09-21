@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+mv changeme.cabal $2.cabal
+mv lib/CHANGEME.hs lib/$1.hs
+for f in $2.cabal lib/$1.hs app/Main.hs; do
+    sed -i "s/CHANGEME/$1/g" $f;
+    sed -i "s/changeme/$2/g" $f;
+done
+rm -rf .git
+git init
