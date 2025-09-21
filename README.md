@@ -2,7 +2,6 @@
 
 Repo for simple new Haskell projects.
 
-    ```
     $ git clone git@github.com:instinctive/dev-simple-sh.git changeme
     $ cd changeme
     $ ./rename CHANGEME changeme
