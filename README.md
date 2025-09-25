@@ -2,7 +2,7 @@
 
 Simple Haskell repo for new projects.
 
-    $ git clone git@github.com:instinctive/dev-simple-sh.git mynewdir
+    $ git clone git@github.com:instinctive/dev-simple-hs.git mynewdir
     $ cd mynewdir
     $ ./setup MyProject myproject
 
