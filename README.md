@@ -2,14 +2,15 @@
 
 Simple Haskell repo for new projects.
 
-    $ git clone git@github.com:instinctive/dev-simple-sh.git changeme
-    $ cd changeme
-    $ ./rename CHANGEME changeme
+    $ git clone git@github.com:instinctive/dev-simple-sh.git mynewdir
+    $ cd mynewdir
+    $ ./setup MyProject myproject
 
-Where `CHANGEME` is your starting Haskell library module, and `changeme` is
+Where `MyProject` is your starting Haskell library module, and `myproject` is
 your lower-case project name. These must be a legal Haskell identifiers.
 
-The `rename` script will also delete the git repo and git init this one.
+The `setup` script will delete the git repo, git init this one,
+create a placeholder `README.md`, and do the initial git commit.
 
 Then you can build and run the simple project.
 

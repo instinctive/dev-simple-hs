@@ -8,3 +8,7 @@ for f in $2.cabal lib/$1.hs app/Main.hs; do
 done
 rm -rf .git
 git init
+echo -e "# $1\n\nHello world!" > README.md
+git add app/ lib/ default.nix $2.cabal README.md
+git commit -m "Initial commit"
+rm setup
